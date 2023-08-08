@@ -1,3 +1,7 @@
+#Atividade 3 - Torneio de Programação
+
+<h1>Descrição:</h1>
+
 Utilizando HTML, CSS e JavaScript, crie uma aplicação que simule a tela de inscrição de um torneio de programação:
 Crie o repositório utilizando o link abaixo e faça commits sequenciais e bem descritos;
 Tenha dois campos de entrada: nome e idade;
