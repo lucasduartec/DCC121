@@ -4,7 +4,6 @@
 
 Utilizando HTML, CSS e JavaScript, crie uma aplicação que simule a tela de inscrição de um torneio de programação:
 <ul>
-  <li>Crie o repositório utilizando o link abaixo e faça commits sequenciais e bem descritos;</li>
   <li>Tenha dois campos de entrada: nome e idade;</li>
   <li>Um botão adicionar;</li>
   <li>Três seções com os títulos referentes à categoria: Júnior, Master e Sênior;</li>
