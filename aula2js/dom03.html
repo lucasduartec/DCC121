@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM03</title>
+  </head>
+  <body>
+    <h1>Me mude com JS!</h1>
+    <div>A: <span>3</span></div>
+    <div>B: <span>2</span></div>
+    <div>A+B: <span>?</span></div>
+    <script>
+      console.log("Hellow");
+      //Busca uma referências para todos os elementos
+      const eSpans = document.querySelectorAll("span");
+
+      const eA = eSpans[0];
+      const eB = eSpans[1];
+      const eC = eSpans[2];
+
+      //Opera os dados
+
+      const A = Number(eA.textContent);
+      const B = Number(eB.textContent);
+      const C = A + B;
+
+      //Escreve na saída
+      eC.textContent = C;
+    </script>
+  </body>
+</html>
